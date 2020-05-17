@@ -22,6 +22,7 @@
     "apollo-link-error": "^1.1.11",
     "axios": "^0.19.1",
     "babel-loader": "^8.0.2",
+    "core-js": "^3.6.5",
     "graphql-tag": "^2.9.0",
     "lodash.debounce": "^4.0.8",
     "lodash.flatmap": "^4.5.0",
