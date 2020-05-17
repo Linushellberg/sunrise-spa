@@ -3,12 +3,12 @@
   publish = "dist"
 
 [template.environment]
-  VUE_APP_CT_PROJECT_KEY=rstest2
-  VUE_APP_CT_CLIENT_ID=VwTx0hZvVpCfHfw0hEviO1Se
-  VUE_APP_CT_CLIENT_SECRET=pQIkUWxxydCki58Whod5goXxTWdjbWya
-  VUE_APP_CT_SCOPE=manage_project:rstest2 manage_api_clients:rstest2 view_api_clients:rstest2
-  VUE_APP_CT_AUTH_HOST=https://auth.europe-west1.gcp.commercetools.com
-  VUE_APP_CT_API_HOST=https://api.europe-west1.gcp.commercetools.com
+  VUE_APP_CT_PROJECT_KEY = "Your project key (optional)"
+  VUE_APP_CT_CLIENT_ID = "Your client ID (if project key set)"
+  VUE_APP_CT_CLIENT_SECRET = "Your client secret (if project key set)"
+  VUE_APP_CT_SCOPE = "Your client scope (if project key set)"
+  VUE_APP_CT_AUTH_HOST = "Auth host (default Europe)"
+  VUE_APP_CT_API_HOST = "API host (default Europe)"
   YARN_FLAGS = "--no-ignore-optional"
 
 # Rule for router history mode
@@ -16,6 +16,3 @@
   from = "/*"
   to = "/index.html"
   status = 200
-
-
-
